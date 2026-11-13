@@ -27,7 +27,7 @@ class ErrorServicioNoDisponible(Exception):
     """Excepción lanzada cuando el servicio seleccionado no está activo o disponible."""
     pass
 
-
+# Bloque de clases Base y Abstractas Dessarrollado por irlena marcela messino anaya
 # ==========================================
 # CLASES BASE Y ABSTRACTAS (POO)
 # ==========================================
@@ -88,7 +88,7 @@ class Cliente(EntidadSistema):
     def obtener_detalles(self):
         return f"Cliente ID: {self._id_entidad} | Nombre: {self._nombre} | Correo: {self._correo}"
 
-
+# Bloque de Clase Base Abstracta servicio y especializados desarrollado por:Irlena Marcela Messino Anaya 
 # ==========================================
 # CLASE ABSTRACTA SERVICIO Y ESPECIALIZADOS
 # ==========================================
